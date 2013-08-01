@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+h1 {
+    font-weight: normal;
+}
+
 /* Our styles */
 
 .justify {
@@ -26,6 +30,15 @@ header span {
     color: #f4b119;
     padding: 2em 1.6em;
     float: right;
+}
+
+header h1 {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    float: right;
+    color: #1d1d1b;
+    opacity: 0.3;
 }
 
 .row-fluid .service {
