@@ -1,0 +1,50 @@
+/* Bootstrap overrides */
+
+.container {
+    width: 100%;
+}
+
+/* Our styles */
+
+.justify {
+    text-align: justify;
+}
+
+header {
+    padding: 30px 0px;
+    background: #f4b119;
+    color: #1d1d1b;
+}
+
+header a {
+    color: #f4b119;
+    text-decoration: underline;
+}
+
+header span {
+    background: black;
+    color: #f4b119;
+    padding: 2em 1.6em;
+    float: right;
+}
+
+.row-fluid .service {
+    min-height: 200px;
+}
+
+.service img {
+    max-height: 70px;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    color: #f4b119;
+    padding: 30px 0px;
+}
+
+footer a {
+    color: #f4b119;
+    text-decoration: underline;
+}
