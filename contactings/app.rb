@@ -62,12 +62,13 @@ post '/contact' do
 
   if @errors.length == 0
     begin
-      Pony.mail :to => "david@deadpansincerity.com",
+      Pony.mail :to => "hello@openhealthcare.org.uk",
               :from => "david@deadpansincerity.com",
               :subject => "OPAL Contact Form",
               :body => erb(:email, :layout=>false)
       @submitted = true
     rescue
+      puts 'There was an error'
       @submitted = false
       @error = "There was an error delivering your email, please email info@prescribinganalytics.com directly"
     end
