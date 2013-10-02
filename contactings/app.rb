@@ -77,5 +77,5 @@ post '/contact' do
     @submitted = false
     @error = @errors.join("<br/>")
   end
-  redirect "http://localhost:8000#contacted"
+  redirect "http://opal.openhealthcare.org.uk#contacted"
 end
